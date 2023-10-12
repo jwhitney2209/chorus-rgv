@@ -15,22 +15,22 @@ const Concerts = () => {
           <div className="flex flex-col items-center mb-4">
           <img src={spotlighton} alt="spotlight on" />
           <p className="font-['gothic']">Annual Fall Concert Event</p>
-          <p className="text-xl font-medium font-['gothic']">7:30 PM Thursday, October 6<sup>th</sup> 2022</p>
+          <p className="text-xl font-medium font-['gothic']">7:30 PM Thursday, October 5<sup>th</sup> 2023</p>
           </div>
           <div className="flex flex-col items-center mb-4">
           <img src={comfort} alt="spotlight on" />
           <p className="font-['gothic']">Annual Holiday Event</p>
-          <p className="text-xl font-medium font-['gothic']">7:30 PM Thursday, December 8<sup>th</sup> 2022</p>
+          <p className="text-xl font-medium font-['gothic']">7:30 PM Thursday, December 7<sup>th</sup> 2023</p>
           </div>
           <div className="flex flex-col items-center mb-4">
           <img src={masterworks} alt="spotlight on" />
           <p className="font-['gothic']">Annual Spring Major Work</p>
-          <p className="text-xl font-medium font-['gothic']">3:00 PM Sunday, April 2<sup>nd</sup> 2023</p>
+          <p className="text-xl font-medium font-['gothic']">TBA</p>
           </div>
           <div className="flex flex-col items-center">
           <img src={celebrate} alt="spotlight on" />
           <p className="font-['gothic']">Annual Patriotic Salute</p>
-          <p className="text-xl font-medium font-['gothic']">Tuesday, July 4<sup>th</sup> 2023</p>
+          <p className="text-xl font-medium font-['gothic']">Tuesday, July 4<sup>th</sup> 2024</p>
           </div>
         </div>
       </div>

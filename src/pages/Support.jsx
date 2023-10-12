@@ -1,6 +1,37 @@
 import React from "react";
 import chart from "../assets/seatingchart.png";
 
+const supporters = [
+  {
+    name: "Soli",
+    amount: "$2,500 +",
+  },
+  {
+    name: "Sopra",
+    amount: "$1,000 +",
+  },
+  {
+    name: "Contralto",
+    amount: "$500 +",
+  },
+  {
+    name: "Tenore",
+    amount: "$250 +",
+  },
+  {
+    name: "Basso",
+    amount: "$100 +",
+  },
+  {
+    name: "Coro",
+    amount: "$50 +",
+  },
+  {
+    name: "Corista",
+    amount: "$25 +",
+  }
+]
+
 const Support = () => {
   return (
     <div>
@@ -18,7 +49,7 @@ const Support = () => {
           <div className="md:text-1xl text-2xl font-normal  flex items-center md:text-left text-center m-4">
             <ul>
               <li className="p-2 border-b hover:text-gray-500">
-                <a href="#tickets">Tickets</a>
+                <a href="#tickets">Ticket Information & Concert Seating</a>
               </li>
               <li className="p-2 border-b hover:text-gray-500">
                 <a href="#sponsor">Sponsorship Levels</a>
@@ -33,13 +64,13 @@ const Support = () => {
           </div>
         </div>
       </div>
-      <div className="max-w-[1240px] bg-white text-zinc-800 mx-auto flex flex-col justify-center">
+      <div className="max-w-[1240px] bg-white text-zinc-800 mx-auto flex flex-col justify-center py-16 sm:py-8">
         <div className="flex flex-col">
           <div
             id="tickets"
             className="text-4xl font-medium font-link flex justify-center text-center m-4"
           >
-            Tickets & Concert Seating
+            Ticket Information & Concert Seating
           </div>
           <div className="flex flex-col justify-center items-center m-4">
             <p className="font-['gothic'] text-center">
@@ -60,7 +91,7 @@ const Support = () => {
           </div>
         </div>
       </div>
-      <div id="sponsor" className="bg-zinc-800 text-white">
+      <div id="sponsor" className="bg-zinc-800 text-white py-16 sm:py-8">
         <div className="flex justify-center">
           <div className="md:text-1xl text-2xl font-normal flex items-center md:text-left text-center mt-4">
             <div className="font-link font-medium text-4xl">
@@ -70,8 +101,6 @@ const Support = () => {
         </div>
         <div className="flex text-center text-xl justify-center font-['gothic'] m-4">
           <p>
-            Prima Donna/Primo Uomo ($5,000 + Concert Event Underwriter)
-            <br />
             Soli ($2,500 +)*****
             <br />
             Sopra ($1,000 + )*****
@@ -108,10 +137,10 @@ const Support = () => {
           </p>
         </div>
       </div>
-      <div id="underwrite" className="text-zinc-800">
+      <div id="underwrite" className="text-zinc-800 py-16 sm:py-8">
         <div className="flex justify-center">
           <div className="md:text-1xl text-2xl font-normal flex items-center md:text-left text-center m-4">
-            <div className="text-3xl font-link font-medium">
+            <div className="text-4xl font-link font-medium">
               <h1>Underwriting Opportunities</h1>
             </div>
           </div>

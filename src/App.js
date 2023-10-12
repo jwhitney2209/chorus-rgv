@@ -8,6 +8,7 @@ import Support from "./pages/Support";
 import Sponsors from "./pages/Sponsors";
 import Recordings from "./pages/Recordings";
 import Contact from "./pages/Contact";
+import Footer from "./components/Footer";
 // import './App.css'
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
         <Route path="/recordings" element={<Recordings />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
+      <Footer />
     </BrowserRouter>
     </>
   );

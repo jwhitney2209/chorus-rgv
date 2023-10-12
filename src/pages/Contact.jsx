@@ -50,11 +50,18 @@ const Contact = () => {
     <div>
       <div className="max-w-[1240px] text-zinc-800 mx-auto flex md:flex-row flex-col justify-center">
         <div className="flex flex-col items-center">
-          <h1 className="font-link text-4xl">Contact Us</h1>
+          <h1 className="font-link font-medium text-4xl">Contact Us</h1>
         </div>
       </div>
+      <div className="py-8 max-w-[1240px] text-zinc-800 mx-auto flex justify-center text-center items-center">
+          <div className="sm:text-xl font-['gothic']">
+          Our Mailing Address:
+          <br />
+          P.O. Box 244 Los Fresnos, Texas 78566
+          </div>
+        </div>
       <section class="">
-        <div class="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
+        <div class="lg:py-16 px-4 mx-auto max-w-screen-md">
           <p class="mb-8 lg:mb-16 text-center text-zinc-800 sm:text-xl font-['gothic']">
             Questions about ticketing? Want to know more information? Contact us
             below.
@@ -122,6 +129,7 @@ const Contact = () => {
             </button>
           </form>
         </div>
+
       </section>
     </div>
   );

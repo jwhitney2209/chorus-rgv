@@ -1,8 +1,8 @@
 import React from "react";
 import Hero from "../components/Hero";
-import salute from "../assets/salute.png"
+import spotlight from "../assets/spotlight.png"
 
-const imgUrl = "https://firebasestorage.googleapis.com/v0/b/chorusrgv-d8382.appspot.com/o/salute.png?alt=media&token=c55f45db-5eeb-4900-bf80-f69ecc5a27f7&_gl=1*d7rvyz*_ga*MjEzNzcyODUuMTY4NjE0MTQzMQ..*_ga_CW55HF8NVT*MTY4NjE0MTQzMC4xLjEuMTY4NjE0MTU1NC4wLjAuMA.."
+const imgUrl= "https://chorus-rgv.s3.us-east-2.amazonaws.com/flyers/gala.png"
 
 const Home = () => {
   return (
@@ -15,9 +15,10 @@ const Home = () => {
           </p>
           <a
             href={imgUrl}
+            target="_blank"
             rel="noreferrer"
           >
-            <img src={salute} alt="spotlight poster"/>
+            <img src={imgUrl} alt="flier"/>
           </a>
           <p className="text-center text-zinc-400 font-['gothic']">(click to enlarge)</p>
         </div>

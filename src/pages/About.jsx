@@ -281,7 +281,7 @@ const About = () => {
           </div>
         </div>
         {/* Audition */}
-        <div className="max-w-[1240px] bg-white text-zinc-800 mx-auto flex flex-col justify-center p-4">
+        {/* <div className="max-w-[1240px] bg-white text-zinc-800 mx-auto flex flex-col justify-center p-4">
           <div
             id="audition"
             className="flex flex-col justify-center items-center text-3xl font-medium font-link p-4"
@@ -310,7 +310,7 @@ const About = () => {
               <br />
             </p>
           </div>
-        </div>
+        </div> */}
       </div>
     </>
   );
