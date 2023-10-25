@@ -2,7 +2,7 @@ import React from "react";
 import Hero from "../components/Hero";
 import spotlight from "../assets/spotlight.png"
 
-const imgUrl= "https://chorus-rgv.s3.us-east-2.amazonaws.com/flyers/gala.png"
+const imgUrl= "https://chorus-rgv.s3.us-east-2.amazonaws.com/flyers/gala_updated.png"
 
 const Home = () => {
   return (
